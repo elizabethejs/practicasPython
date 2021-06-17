@@ -15,10 +15,12 @@ def addAllFiles():
     os.system("echo git add main.py")
     os.system("echo git commit -m 'Primer commit'")
 
+
 def addRepository():
     print("Añadiendo al repositorio")
     os.system("echo git remote add origin https://github.com/elizabethejs/practicasPython.git")
     os.system("echo git push -u origin master")
+
 
 def getStatus():
     print("Comprobando estado")
